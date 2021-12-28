@@ -16,6 +16,6 @@ def run_tests():
     print("{} is_vintage() - Expected {}. Got {}".format(guitar.name, True, guitar.is_vintage()))
     print("{} is_vintage() - Expected {}. Got {}".format(other.name, False, other.is_vintage()))
 
-    
+
 if __name__ == "__main__":
     run_tests()
